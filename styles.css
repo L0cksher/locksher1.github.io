@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic");
 
 body {
   color: #555;
   margin: 0;
-  font-family: 'Montserrat', 'sans-serif';
+  font-family: "Roboto", 'sans-serif';
 }
 
 #header {
@@ -83,9 +83,14 @@ a:hover {
 }
 
 .post-author img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 70px;
   vertical-align: middle;
+}
+
+.post-content img {
+  height: 220px;
+  width: 330px;
 }
 
 .post-author span {
@@ -124,4 +129,3 @@ p {
 
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
-}
